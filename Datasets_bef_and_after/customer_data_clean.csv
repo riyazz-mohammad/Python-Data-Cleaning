@@ -1,0 +1,341 @@
+customer_id,first_name,last_name,email,phone,age,total_purchases,total_spent,join_date,city,state,average_order_value,tenure_days,Customer_tier
+1.0,John,Smith,john@email.com,(555) 123-4567,51.0,21,4455,2023-04-07,New York,NY,212.14,1064,VIP
+2.0,Mary,Johnson,mary@email.com,(555) 234-5678,51.0,22,2947,2025-03-18,Los Angeles,CA,133.95,353,VIP
+3.0,Bob,Williams,bob@gmail.com,(555) 345-6789,51.0,1,1719,2026-01-30,Chicago,IL,1719.0,35,Regular
+8.0,Frank,Davis,frank@email.com,(555) 789-0123,51.0,16,666,2023-06-11,San Diego,CA,41.62,999,Regular
+9.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,51.0,39,4188,2024-03-03,Dallas,TX,107.38,733,VIP
+10.0,Henry,Martinez,henry@email.com,(555) 901-2345,75.0,32,671,2024-11-02,San Jose,CA,20.97,489,Regular
+11.0,John,Smith,john@email.com,(555) 123-4567,36.0,8,1969,2024-10-10,New York,NY,246.12,512,Regular
+12.0,Mary,Johnson,mary@email.com,(555) 234-5678,40.0,42,4156,2025-12-26,Los Angeles,CA,98.95,70,VIP
+13.0,Bob,Williams,bob@gmail.com,(555) 345-6789,28.0,47,3122,2023-12-26,Chicago,IL,66.43,801,VIP
+16.0,David,Garcia,david@email.com,,70.0,41,3900,2025-01-06,Philadelphia,PA,95.12,424,VIP
+18.0,Frank,Davis,frank@email.com,(555) 789-0123,57.0,34,2393,2025-06-06,San Diego,CA,70.38,273,VIP
+19.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,41.0,49,3117,2025-01-16,Dallas,TX,63.61,414,VIP
+20.0,Henry,Martinez,henry@email.com,(555) 901-2345,20.0,24,2593,2025-03-13,San Jose,CA,108.04,358,VIP
+21.0,John,Smith,john@email.com,(555) 123-4567,39.0,23,1968,2024-05-23,New York,NY,85.57,652,Regular
+22.0,Mary,Johnson,mary@email.com,(555) 234-5678,70.0,12,1753,2025-09-27,Los Angeles,CA,146.08,160,Regular
+26.0,David,Garcia,david@email.com,,47.0,19,4202,2024-02-15,Philadelphia,PA,221.16,750,VIP
+28.0,Frank,Davis,frank@email.com,(555) 789-0123,19.0,7,4143,2023-05-28,San Diego,CA,591.86,1013,VIP
+29.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,77.0,45,3644,2025-02-04,Dallas,TX,80.98,395,VIP
+30.0,Henry,Martinez,henry@email.com,(555) 901-2345,38.0,15,4432,2023-07-22,San Jose,CA,295.47,958,VIP
+31.0,John,Smith,john@email.com,(555) 123-4567,50.0,13,2055,2023-05-23,New York,NY,158.08,1018,VIP
+32.0,Mary,Johnson,mary@email.com,(555) 234-5678,29.0,11,4720,2025-01-05,Los Angeles,CA,429.09,425,VIP
+33.0,Bob,Williams,bob@gmail.com,(555) 345-6789,75.0,22,1276,2024-06-06,Chicago,IL,58.0,638,Regular
+36.0,David,Garcia,david@email.com,,61.0,33,638,2025-08-07,Philadelphia,PA,19.33,211,Regular
+38.0,Frank,Davis,frank@email.com,(555) 789-0123,66.0,31,4821,2023-11-29,San Diego,CA,155.52,828,VIP
+39.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,44.0,22,525,2023-07-21,Dallas,TX,23.86,959,Regular
+40.0,Henry,Martinez,henry@email.com,(555) 901-2345,76.0,21,4569,2023-06-01,San Jose,CA,217.57,1009,VIP
+41.0,John,Smith,john@email.com,(555) 123-4567,59.0,24,4123,2025-08-12,New York,NY,171.79,206,VIP
+42.0,Mary,Johnson,mary@email.com,(555) 234-5678,45.0,21,2125,2023-06-04,Los Angeles,CA,101.19,1006,VIP
+43.0,Bob,Williams,bob@gmail.com,(555) 345-6789,77.0,21,3287,2025-02-12,Chicago,IL,156.52,387,VIP
+48.0,Frank,Davis,frank@email.com,(555) 789-0123,64.0,42,918,2024-02-20,San Diego,CA,21.86,745,Regular
+49.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,79.0,36,2797,2026-01-26,Dallas,TX,77.69,39,VIP
+50.0,Henry,Martinez,henry@email.com,(555) 901-2345,68.0,32,1531,2024-10-06,San Jose,CA,47.84,516,Regular
+51.0,John,Smith,john@email.com,(555) 123-4567,61.0,7,3345,2023-09-01,New York,NY,477.86,917,VIP
+52.0,Mary,Johnson,mary@email.com,(555) 234-5678,72.0,43,1906,2025-04-06,Los Angeles,CA,44.33,334,Regular
+53.0,Bob,Williams,bob@gmail.com,(555) 345-6789,69.0,43,3086,2024-02-03,Chicago,IL,71.77,762,VIP
+56.0,David,Garcia,david@email.com,,54.0,3,713,2025-06-05,Philadelphia,PA,237.67,274,Regular
+58.0,Frank,Davis,frank@email.com,(555) 789-0123,24.0,44,1976,2023-03-16,San Diego,CA,44.91,1086,Regular
+59.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,38.0,31,1296,2023-11-20,Dallas,TX,41.81,837,Regular
+60.0,Henry,Martinez,henry@email.com,(555) 901-2345,26.0,29,125,2026-01-13,San Jose,CA,4.31,52,Occasional
+61.0,John,Smith,john@email.com,(555) 123-4567,56.0,46,4632,2023-06-29,New York,NY,100.7,981,VIP
+62.0,Mary,Johnson,mary@email.com,(555) 234-5678,35.0,34,3596,2024-10-22,Los Angeles,CA,105.76,500,VIP
+63.0,Bob,Williams,bob@gmail.com,(555) 345-6789,21.0,39,3283,2025-03-30,Chicago,IL,84.18,341,VIP
+66.0,David,Garcia,david@email.com,,31.0,49,232,2024-03-16,Philadelphia,PA,4.73,720,Occasional
+68.0,Frank,Davis,frank@email.com,(555) 789-0123,75.0,29,1169,2025-01-30,San Diego,CA,40.31,400,Regular
+69.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,26.0,18,2158,2025-05-21,Dallas,TX,119.89,289,VIP
+70.0,Henry,Martinez,henry@email.com,(555) 901-2345,43.0,16,4206,2023-07-31,San Jose,CA,262.88,949,VIP
+71.0,John,Smith,john@email.com,(555) 123-4567,70.0,18,1493,2023-08-05,New York,NY,82.94,944,Regular
+72.0,Mary,Johnson,mary@email.com,(555) 234-5678,19.0,27,4718,2025-03-08,Los Angeles,CA,174.74,363,VIP
+73.0,Bob,Williams,bob@gmail.com,(555) 345-6789,37.0,25,4007,2025-01-18,Chicago,IL,160.28,412,VIP
+76.0,David,Garcia,david@email.com,,77.0,22,2739,2025-01-31,Philadelphia,PA,124.5,399,VIP
+78.0,Frank,Davis,frank@email.com,(555) 789-0123,61.0,11,3514,2025-09-18,San Diego,CA,319.45,169,VIP
+79.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,78.0,0,1975,2025-04-24,Dallas,TX,0.0,316,Regular
+80.0,Henry,Martinez,henry@email.com,(555) 901-2345,25.0,0,2362,2024-12-06,San Jose,CA,0.0,455,VIP
+81.0,John,Smith,john@email.com,(555) 123-4567,64.0,46,876,2024-03-08,New York,NY,19.04,728,Regular
+82.0,Mary,Johnson,mary@email.com,(555) 234-5678,52.0,33,3812,2023-07-08,Los Angeles,CA,115.52,972,VIP
+83.0,Bob,Williams,bob@gmail.com,(555) 345-6789,31.0,31,3448,2024-07-06,Chicago,IL,111.23,608,VIP
+86.0,David,Garcia,david@email.com,,67.0,39,2709,2023-06-23,Philadelphia,PA,69.46,987,VIP
+88.0,Frank,Davis,frank@email.com,(555) 789-0123,21.0,0,1733,2025-12-12,San Diego,CA,0.0,84,Regular
+89.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,19.0,15,1605,2023-07-18,Dallas,TX,107.0,962,Regular
+90.0,Henry,Martinez,henry@email.com,(555) 901-2345,79.0,38,2563,2024-03-03,San Jose,CA,67.45,733,VIP
+91.0,John,Smith,john@email.com,(555) 123-4567,23.0,4,3421,2023-11-27,New York,NY,855.25,830,VIP
+92.0,Mary,Johnson,mary@email.com,(555) 234-5678,71.0,21,3517,2026-01-31,Los Angeles,CA,167.48,34,VIP
+93.0,Bob,Williams,bob@gmail.com,(555) 345-6789,59.0,28,2397,2023-02-21,Chicago,IL,85.61,1109,VIP
+96.0,David,Garcia,david@email.com,,46.0,25,1160,2024-01-01,Philadelphia,PA,46.4,795,Regular
+98.0,Frank,Davis,frank@email.com,(555) 789-0123,43.0,36,242,2025-06-30,San Diego,CA,6.72,249,Occasional
+99.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,61.0,21,2590,2023-11-09,Dallas,TX,123.33,848,VIP
+100.0,Henry,Martinez,henry@email.com,(555) 901-2345,51.0,28,1063,2025-07-08,San Jose,CA,37.96,241,Regular
+101.0,John,Smith,john@email.com,(555) 123-4567,27.0,13,4324,2023-07-20,New York,NY,332.62,960,VIP
+102.0,Mary,Johnson,mary@email.com,(555) 234-5678,79.0,27,2595,2024-01-20,Los Angeles,CA,96.11,776,VIP
+103.0,Bob,Williams,bob@gmail.com,(555) 345-6789,53.0,4,919,2024-09-23,Chicago,IL,229.75,529,Regular
+106.0,David,Garcia,david@email.com,,65.0,29,4170,2023-03-08,Philadelphia,PA,143.79,1094,VIP
+108.0,Frank,Davis,frank@email.com,(555) 789-0123,25.0,4,645,2024-03-24,San Diego,CA,161.25,712,Regular
+109.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,31.0,11,117,2023-04-04,Dallas,TX,10.64,1067,Occasional
+110.0,Henry,Martinez,henry@email.com,(555) 901-2345,40.0,15,2928,2024-12-19,San Jose,CA,195.2,442,VIP
+111.0,John,Smith,john@email.com,(555) 123-4567,77.0,25,2551,2024-03-23,New York,NY,102.04,713,VIP
+112.0,Mary,Johnson,mary@email.com,(555) 234-5678,74.0,25,4289,2023-10-15,Los Angeles,CA,171.56,873,VIP
+113.0,Bob,Williams,bob@gmail.com,(555) 345-6789,79.0,47,846,2025-12-11,Chicago,IL,18.0,85,Regular
+116.0,David,Garcia,david@email.com,,33.0,35,1810,2025-09-04,Philadelphia,PA,51.71,183,Regular
+118.0,Frank,Davis,frank@email.com,(555) 789-0123,35.0,29,224,2023-09-02,San Diego,CA,7.72,916,Occasional
+119.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,64.0,36,4627,2025-03-19,Dallas,TX,128.53,352,VIP
+120.0,Henry,Martinez,henry@email.com,(555) 901-2345,70.0,22,4208,2024-07-11,San Jose,CA,191.27,603,VIP
+121.0,John,Smith,john@email.com,(555) 123-4567,41.0,9,4654,2023-07-05,New York,NY,517.11,975,VIP
+122.0,Mary,Johnson,mary@email.com,(555) 234-5678,43.0,4,2048,2024-05-17,Los Angeles,CA,512.0,658,VIP
+123.0,Bob,Williams,bob@gmail.com,(555) 345-6789,42.0,35,4749,2023-05-30,Chicago,IL,135.69,1011,VIP
+126.0,David,Garcia,david@email.com,,77.0,9,1828,2025-08-25,Philadelphia,PA,203.11,193,Regular
+128.0,Frank,Davis,frank@email.com,(555) 789-0123,58.0,31,4234,2026-01-02,San Diego,CA,136.58,63,VIP
+129.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,46.0,0,2026,2023-07-02,Dallas,TX,0.0,978,VIP
+130.0,Henry,Martinez,henry@email.com,(555) 901-2345,32.0,4,3744,2023-06-03,San Jose,CA,936.0,1007,VIP
+131.0,John,Smith,john@email.com,(555) 123-4567,62.0,44,901,2023-06-12,New York,NY,20.48,998,Regular
+132.0,Mary,Johnson,mary@email.com,(555) 234-5678,18.0,3,4785,2026-01-04,Los Angeles,CA,1595.0,61,VIP
+133.0,Bob,Williams,bob@gmail.com,(555) 345-6789,42.0,15,2039,2025-03-20,Chicago,IL,135.93,351,VIP
+136.0,David,Garcia,david@email.com,,41.0,1,1673,2026-01-05,Philadelphia,PA,1673.0,60,Regular
+138.0,Frank,Davis,frank@email.com,(555) 789-0123,61.0,27,2060,2023-12-08,San Diego,CA,76.3,819,VIP
+139.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,25.0,31,3713,2023-06-14,Dallas,TX,119.77,996,VIP
+140.0,Henry,Martinez,henry@email.com,(555) 901-2345,41.0,26,1619,2024-06-28,San Jose,CA,62.27,616,Regular
+141.0,John,Smith,john@email.com,(555) 123-4567,28.0,19,320,2023-03-15,New York,NY,16.84,1087,Occasional
+142.0,Mary,Johnson,mary@email.com,(555) 234-5678,68.0,23,1342,2025-07-02,Los Angeles,CA,58.35,247,Regular
+143.0,Bob,Williams,bob@gmail.com,(555) 345-6789,34.0,11,2376,2025-03-30,Chicago,IL,216.0,341,VIP
+146.0,David,Garcia,david@email.com,,52.0,32,1994,2024-03-15,Philadelphia,PA,62.31,721,Regular
+149.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,22.0,36,3490,2025-07-10,Dallas,TX,96.94,239,VIP
+150.0,Henry,Martinez,henry@email.com,(555) 901-2345,59.0,11,3677,2025-03-12,San Jose,CA,334.27,359,VIP
+151.0,John,Smith,john@email.com,(555) 123-4567,56.0,2,1118,2025-11-11,New York,NY,559.0,115,Regular
+152.0,Mary,Johnson,mary@email.com,(555) 234-5678,75.0,0,1604,2025-02-23,Los Angeles,CA,0.0,376,Regular
+153.0,Bob,Williams,bob@gmail.com,(555) 345-6789,58.0,32,4027,2024-07-20,Chicago,IL,125.84,594,VIP
+156.0,David,Garcia,david@email.com,,26.0,42,4429,2025-02-13,Philadelphia,PA,105.45,386,VIP
+158.0,Frank,Davis,frank@email.com,(555) 789-0123,29.0,28,375,2025-02-20,San Diego,CA,13.39,379,Occasional
+159.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,51.0,12,3530,2025-08-04,Dallas,TX,294.17,214,VIP
+160.0,Henry,Martinez,henry@email.com,(555) 901-2345,50.0,11,2635,2024-12-16,San Jose,CA,239.55,445,VIP
+161.0,John,Smith,john@email.com,(555) 123-4567,65.0,30,1570,2024-03-13,New York,NY,52.33,723,Regular
+162.0,Mary,Johnson,mary@email.com,(555) 234-5678,72.0,45,2560,2026-02-04,Los Angeles,CA,56.89,30,VIP
+163.0,Bob,Williams,bob@gmail.com,(555) 345-6789,40.0,1,3391,2025-10-01,Chicago,IL,3391.0,156,VIP
+166.0,David,Garcia,david@email.com,,54.0,22,3850,2024-01-12,Philadelphia,PA,175.0,784,VIP
+168.0,Frank,Davis,frank@email.com,(555) 789-0123,61.0,25,1252,2024-08-25,San Diego,CA,50.08,558,Regular
+169.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,57.0,7,1314,2024-12-12,Dallas,TX,187.71,449,Regular
+170.0,Henry,Martinez,henry@email.com,(555) 901-2345,39.0,28,4820,2024-04-10,San Jose,CA,172.14,695,VIP
+171.0,John,Smith,john@email.com,(555) 123-4567,44.0,25,2898,2025-02-13,New York,NY,115.92,386,VIP
+172.0,Mary,Johnson,mary@email.com,(555) 234-5678,52.0,9,77,2025-11-21,Los Angeles,CA,8.56,105,Occasional
+173.0,Bob,Williams,bob@gmail.com,(555) 345-6789,18.0,25,2621,2025-02-20,Chicago,IL,104.84,379,VIP
+176.0,David,Garcia,david@email.com,,64.0,6,1065,2023-03-09,Philadelphia,PA,177.5,1093,Regular
+178.0,Frank,Davis,frank@email.com,(555) 789-0123,20.0,49,2449,2025-02-16,San Diego,CA,49.98,383,VIP
+179.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,18.0,44,2343,2023-09-29,Dallas,TX,53.25,889,VIP
+180.0,Henry,Martinez,henry@email.com,(555) 901-2345,22.0,10,1863,2024-03-13,San Jose,CA,186.3,723,Regular
+181.0,John,Smith,john@email.com,(555) 123-4567,43.0,28,1318,2024-11-20,New York,NY,47.07,471,Regular
+182.0,Mary,Johnson,mary@email.com,(555) 234-5678,72.0,35,4711,2023-10-09,Los Angeles,CA,134.6,879,VIP
+183.0,Bob,Williams,bob@gmail.com,(555) 345-6789,31.0,24,3597,2025-02-11,Chicago,IL,149.88,388,VIP
+186.0,David,Garcia,david@email.com,,26.0,9,2190,2024-11-01,Philadelphia,PA,243.33,490,VIP
+188.0,Frank,Davis,frank@email.com,(555) 789-0123,32.0,8,2712,2024-07-05,San Diego,CA,339.0,609,VIP
+190.0,Henry,Martinez,henry@email.com,(555) 901-2345,59.0,34,1248,2024-07-19,San Jose,CA,36.71,595,Regular
+191.0,John,Smith,john@email.com,(555) 123-4567,77.0,48,3054,2025-03-13,New York,NY,63.62,358,VIP
+192.0,Mary,Johnson,mary@email.com,(555) 234-5678,30.0,34,4598,2026-01-05,Los Angeles,CA,135.24,60,VIP
+196.0,David,Garcia,david@email.com,,66.0,48,3687,2024-10-15,Philadelphia,PA,76.81,507,VIP
+198.0,Frank,Davis,frank@email.com,(555) 789-0123,78.0,31,4018,2025-08-03,San Diego,CA,129.61,215,VIP
+199.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,49.0,23,3110,2023-04-07,Dallas,TX,135.22,1064,VIP
+200.0,Henry,Martinez,henry@email.com,(555) 901-2345,21.0,22,1970,2024-09-05,San Jose,CA,89.55,547,Regular
+201.0,John,Smith,john@email.com,(555) 123-4567,47.0,31,197,2023-08-08,New York,NY,6.35,941,Occasional
+202.0,Mary,Johnson,mary@email.com,(555) 234-5678,54.0,36,2626,2025-01-06,Los Angeles,CA,72.94,424,VIP
+203.0,Bob,Williams,bob@gmail.com,(555) 345-6789,40.0,11,1202,2023-09-09,Chicago,IL,109.27,909,Regular
+206.0,David,Garcia,david@email.com,,32.0,22,1254,2024-10-25,Philadelphia,PA,57.0,497,Regular
+208.0,Frank,Davis,frank@email.com,(555) 789-0123,46.0,34,419,2025-04-11,San Diego,CA,12.32,329,Occasional
+209.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,53.0,40,2204,2024-03-09,Dallas,TX,55.1,727,VIP
+210.0,Henry,Martinez,henry@email.com,(555) 901-2345,30.0,29,2597,2024-03-26,San Jose,CA,89.55,710,VIP
+211.0,John,Smith,john@email.com,(555) 123-4567,49.0,16,1120,2025-05-02,New York,NY,70.0,308,Regular
+212.0,Mary,Johnson,mary@email.com,(555) 234-5678,24.0,48,3068,2024-02-26,Los Angeles,CA,63.92,739,VIP
+216.0,David,Garcia,david@email.com,,45.0,21,2645,2024-11-08,Philadelphia,PA,125.95,483,VIP
+218.0,Frank,Davis,frank@email.com,(555) 789-0123,59.0,18,4612,2026-01-13,San Diego,CA,256.22,52,VIP
+219.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,62.0,48,1865,2023-08-19,Dallas,TX,38.85,930,Regular
+220.0,Henry,Martinez,henry@email.com,(555) 901-2345,79.0,35,2912,2023-03-22,San Jose,CA,83.2,1080,VIP
+221.0,John,Smith,john@email.com,(555) 123-4567,74.0,11,2853,2023-09-16,New York,NY,259.36,902,VIP
+222.0,Mary,Johnson,mary@email.com,(555) 234-5678,70.0,40,4910,2025-11-24,Los Angeles,CA,122.75,102,VIP
+223.0,Bob,Williams,bob@gmail.com,(555) 345-6789,23.0,18,3228,2023-07-10,Chicago,IL,179.33,970,VIP
+226.0,David,Garcia,david@email.com,,61.0,6,2371,2024-02-04,Philadelphia,PA,395.17,761,VIP
+228.0,Frank,Davis,frank@email.com,(555) 789-0123,37.0,13,3756,2025-01-10,San Diego,CA,288.92,420,VIP
+229.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,47.0,30,4225,2026-01-03,Dallas,TX,140.83,62,VIP
+230.0,Henry,Martinez,henry@email.com,(555) 901-2345,79.0,18,94,2023-09-08,San Jose,CA,5.22,910,Occasional
+231.0,John,Smith,john@email.com,(555) 123-4567,28.0,46,2674,2023-12-07,New York,NY,58.13,820,VIP
+232.0,Mary,Johnson,mary@email.com,(555) 234-5678,75.0,15,1955,2025-09-07,Los Angeles,CA,130.33,180,Regular
+233.0,Bob,Williams,bob@gmail.com,(555) 345-6789,72.0,4,793,2023-09-11,Chicago,IL,198.25,907,Regular
+238.0,Frank,Davis,frank@email.com,(555) 789-0123,50.0,35,2919,2023-05-29,San Diego,CA,83.4,1012,VIP
+239.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,18.0,22,2597,2026-01-21,Dallas,TX,118.05,44,VIP
+240.0,Henry,Martinez,henry@email.com,(555) 901-2345,74.0,15,3205,2025-04-14,San Jose,CA,213.67,326,VIP
+241.0,John,Smith,john@email.com,(555) 123-4567,44.0,38,4807,2023-09-26,New York,NY,126.5,892,VIP
+242.0,Mary,Johnson,mary@email.com,(555) 234-5678,79.0,44,814,2025-11-19,Los Angeles,CA,18.5,107,Regular
+243.0,Bob,Williams,bob@gmail.com,(555) 345-6789,74.0,41,345,2024-07-21,Chicago,IL,8.41,593,Occasional
+246.0,David,Garcia,david@email.com,,58.0,30,2443,2023-12-11,Philadelphia,PA,81.43,816,VIP
+248.0,Frank,Davis,frank@email.com,(555) 789-0123,56.0,34,2188,2024-10-07,San Diego,CA,64.35,515,VIP
+249.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,23.0,22,3005,2025-07-18,Dallas,TX,136.59,231,VIP
+250.0,Henry,Martinez,henry@email.com,(555) 901-2345,25.0,28,3281,2023-02-23,San Jose,CA,117.18,1107,VIP
+251.0,John,Smith,john@email.com,(555) 123-4567,44.0,42,984,2024-12-08,New York,NY,23.43,453,Regular
+252.0,Mary,Johnson,mary@email.com,(555) 234-5678,26.0,10,1639,2023-06-02,Los Angeles,CA,163.9,1008,Regular
+253.0,Bob,Williams,bob@gmail.com,(555) 345-6789,79.0,17,827,2024-09-09,Chicago,IL,48.65,543,Regular
+256.0,David,Garcia,david@email.com,,68.0,8,4451,2025-07-27,Philadelphia,PA,556.38,222,VIP
+258.0,Frank,Davis,frank@email.com,(555) 789-0123,61.0,43,3876,2025-02-27,San Diego,CA,90.14,372,VIP
+259.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,41.0,16,126,2023-06-27,Dallas,TX,7.88,983,Occasional
+260.0,Henry,Martinez,henry@email.com,(555) 901-2345,32.0,37,3177,2024-03-20,San Jose,CA,85.86,716,VIP
+261.0,John,Smith,john@email.com,(555) 123-4567,76.0,6,3056,2025-01-29,New York,NY,509.33,401,VIP
+262.0,Mary,Johnson,mary@email.com,(555) 234-5678,71.0,45,603,2023-08-27,Los Angeles,CA,13.4,922,Regular
+263.0,Bob,Williams,bob@gmail.com,(555) 345-6789,49.0,12,3449,2023-08-10,Chicago,IL,287.42,939,VIP
+266.0,David,Garcia,david@email.com,,58.0,8,3367,2025-07-20,Philadelphia,PA,420.88,229,VIP
+268.0,Frank,Davis,frank@email.com,(555) 789-0123,66.0,26,3797,2024-09-08,San Diego,CA,146.04,544,VIP
+269.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,79.0,1,1792,2023-05-01,Dallas,TX,1792.0,1040,Regular
+270.0,Henry,Martinez,henry@email.com,(555) 901-2345,66.0,4,2861,2023-07-01,San Jose,CA,715.25,979,VIP
+271.0,John,Smith,john@email.com,(555) 123-4567,75.0,28,3476,2024-02-16,New York,NY,124.14,749,VIP
+272.0,Mary,Johnson,mary@email.com,(555) 234-5678,69.0,36,3417,2023-05-04,Los Angeles,CA,94.92,1037,VIP
+276.0,David,Garcia,david@email.com,,19.0,47,2872,2024-07-07,Philadelphia,PA,61.11,607,VIP
+278.0,Frank,Davis,frank@email.com,(555) 789-0123,66.0,0,1854,2023-02-19,San Diego,CA,0.0,1111,Regular
+279.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,54.0,21,4021,2024-02-21,Dallas,TX,191.48,744,VIP
+280.0,Henry,Martinez,henry@email.com,(555) 901-2345,66.0,16,4662,2025-12-01,San Jose,CA,291.38,95,VIP
+281.0,John,Smith,john@email.com,(555) 123-4567,73.0,6,2708,2025-05-13,New York,NY,451.33,297,VIP
+282.0,Mary,Johnson,mary@email.com,(555) 234-5678,34.0,24,3502,2025-03-10,Los Angeles,CA,145.92,361,VIP
+283.0,Bob,Williams,bob@gmail.com,(555) 345-6789,76.0,44,1332,2024-06-14,Chicago,IL,30.27,630,Regular
+286.0,David,Garcia,david@email.com,,19.0,5,4212,2024-02-13,Philadelphia,PA,842.4,752,VIP
+288.0,Frank,Davis,frank@email.com,(555) 789-0123,71.0,18,536,2025-11-01,San Diego,CA,29.78,125,Regular
+289.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,40.0,43,1625,2023-12-25,Dallas,TX,37.79,802,Regular
+290.0,Henry,Martinez,henry@email.com,(555) 901-2345,54.0,38,2122,2025-07-12,San Jose,CA,55.84,237,VIP
+291.0,John,Smith,john@email.com,(555) 123-4567,49.0,26,385,2025-01-06,New York,NY,14.81,424,Occasional
+292.0,Mary,Johnson,mary@email.com,(555) 234-5678,50.0,9,3281,2024-07-03,Los Angeles,CA,364.56,611,VIP
+293.0,Bob,Williams,bob@gmail.com,(555) 345-6789,18.0,25,474,2023-09-06,Chicago,IL,18.96,912,Occasional
+296.0,David,Garcia,david@email.com,,19.0,2,954,2025-11-11,Philadelphia,PA,477.0,115,Regular
+298.0,Frank,Davis,frank@email.com,(555) 789-0123,61.0,12,4858,2024-02-28,San Diego,CA,404.83,737,VIP
+299.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,43.0,49,1205,2023-07-21,Dallas,TX,24.59,959,Regular
+300.0,Henry,Martinez,henry@email.com,(555) 901-2345,49.0,27,4759,2025-06-14,San Jose,CA,176.26,265,VIP
+301.0,John,Smith,john@email.com,(555) 123-4567,23.0,19,4120,2026-02-09,New York,NY,216.84,25,VIP
+302.0,Mary,Johnson,mary@email.com,(555) 234-5678,49.0,27,1990,2025-07-01,Los Angeles,CA,73.7,248,Regular
+303.0,Bob,Williams,bob@gmail.com,(555) 345-6789,72.0,7,4805,2023-12-03,Chicago,IL,686.43,824,VIP
+306.0,David,Garcia,david@email.com,,28.0,0,4158,2023-08-08,Philadelphia,PA,0.0,941,VIP
+308.0,Frank,Davis,frank@email.com,(555) 789-0123,76.0,12,2713,2023-09-24,San Diego,CA,226.08,894,VIP
+309.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,34.0,27,2203,2025-11-13,Dallas,TX,81.59,113,VIP
+310.0,Henry,Martinez,henry@email.com,(555) 901-2345,55.0,48,3120,2025-10-12,San Jose,CA,65.0,145,VIP
+311.0,John,Smith,john@email.com,(555) 123-4567,41.0,24,966,2025-09-21,New York,NY,40.25,166,Regular
+312.0,Mary,Johnson,mary@email.com,(555) 234-5678,22.0,32,4944,2023-05-24,Los Angeles,CA,154.5,1017,VIP
+313.0,Bob,Williams,bob@gmail.com,(555) 345-6789,69.0,37,3432,2025-10-28,Chicago,IL,92.76,129,VIP
+316.0,David,Garcia,david@email.com,,39.0,44,3701,2025-03-31,Philadelphia,PA,84.11,340,VIP
+318.0,Frank,Davis,frank@email.com,(555) 789-0123,65.0,44,1724,2026-02-02,San Diego,CA,39.18,32,Regular
+319.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,33.0,46,4422,2023-12-30,Dallas,TX,96.13,797,VIP
+320.0,Henry,Martinez,henry@email.com,(555) 901-2345,50.0,20,1792,2025-07-03,San Jose,CA,89.6,246,Regular
+321.0,John,Smith,john@email.com,(555) 123-4567,26.0,15,1759,2024-08-07,New York,NY,117.27,576,Regular
+322.0,Mary,Johnson,mary@email.com,(555) 234-5678,77.0,20,3212,2024-02-26,Los Angeles,CA,160.6,739,VIP
+323.0,Bob,Williams,bob@gmail.com,(555) 345-6789,76.0,10,989,2025-10-23,Chicago,IL,98.9,134,Regular
+326.0,David,Garcia,david@email.com,,46.0,34,951,2026-02-04,Philadelphia,PA,27.97,30,Regular
+328.0,Frank,Davis,frank@email.com,(555) 789-0123,37.0,19,3389,2025-07-18,San Diego,CA,178.37,231,VIP
+329.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,77.0,17,2079,2023-08-26,Dallas,TX,122.29,923,VIP
+330.0,Henry,Martinez,henry@email.com,(555) 901-2345,76.0,46,2717,2026-01-20,San Jose,CA,59.07,45,VIP
+331.0,John,Smith,john@email.com,(555) 123-4567,53.0,40,2332,2024-12-28,New York,NY,58.3,433,VIP
+332.0,Mary,Johnson,mary@email.com,(555) 234-5678,36.0,48,3376,2023-08-31,Los Angeles,CA,70.33,918,VIP
+333.0,Bob,Williams,bob@gmail.com,(555) 345-6789,43.0,13,4524,2024-09-14,Chicago,IL,348.0,538,VIP
+336.0,David,Garcia,david@email.com,,37.0,0,3495,2026-01-28,Philadelphia,PA,0.0,37,VIP
+338.0,Frank,Davis,frank@email.com,(555) 789-0123,24.0,15,768,2023-06-09,San Diego,CA,51.2,1001,Regular
+339.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,69.0,22,3057,2023-05-04,Dallas,TX,138.95,1037,VIP
+340.0,Henry,Martinez,henry@email.com,(555) 901-2345,58.0,10,4289,2023-04-12,San Jose,CA,428.9,1059,VIP
+341.0,John,Smith,john@email.com,(555) 123-4567,50.0,11,2161,2025-11-16,New York,NY,196.45,110,VIP
+342.0,Mary,Johnson,mary@email.com,(555) 234-5678,57.0,9,3293,2023-08-17,Los Angeles,CA,365.89,932,VIP
+343.0,Bob,Williams,bob@gmail.com,(555) 345-6789,56.0,31,946,2025-10-12,Chicago,IL,30.52,145,Regular
+346.0,David,Garcia,david@email.com,,18.0,37,4150,2025-04-08,Philadelphia,PA,112.16,332,VIP
+348.0,Frank,Davis,frank@email.com,(555) 789-0123,45.0,23,4873,2025-04-29,San Diego,CA,211.87,311,VIP
+349.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,74.0,27,1481,2025-04-10,Dallas,TX,54.85,330,Regular
+350.0,Henry,Martinez,henry@email.com,(555) 901-2345,42.0,7,1901,2023-08-12,San Jose,CA,271.57,937,Regular
+351.0,John,Smith,john@email.com,(555) 123-4567,67.0,27,3451,2024-04-20,New York,NY,127.81,685,VIP
+352.0,Mary,Johnson,mary@email.com,(555) 234-5678,40.0,35,4064,2024-08-11,Los Angeles,CA,116.11,572,VIP
+353.0,Bob,Williams,bob@gmail.com,(555) 345-6789,48.0,25,54,2025-04-05,Chicago,IL,2.16,335,Occasional
+356.0,David,Garcia,david@email.com,,52.0,27,3079,2023-08-02,Philadelphia,PA,114.04,947,VIP
+358.0,Frank,Davis,frank@email.com,(555) 789-0123,77.0,36,4408,2026-01-07,San Diego,CA,122.44,58,VIP
+359.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,33.0,40,2806,2024-11-23,Dallas,TX,70.15,468,VIP
+360.0,Henry,Martinez,henry@email.com,(555) 901-2345,43.0,35,2490,2025-11-10,San Jose,CA,71.14,116,VIP
+361.0,John,Smith,john@email.com,(555) 123-4567,65.0,26,327,2025-02-23,New York,NY,12.58,376,Occasional
+362.0,Mary,Johnson,mary@email.com,(555) 234-5678,74.0,16,3310,2023-08-23,Los Angeles,CA,206.88,926,VIP
+363.0,Bob,Williams,bob@gmail.com,(555) 345-6789,69.0,8,3300,2023-10-03,Chicago,IL,412.5,885,VIP
+366.0,David,Garcia,david@email.com,,19.0,12,2143,2026-01-18,Philadelphia,PA,178.58,47,VIP
+368.0,Frank,Davis,frank@email.com,(555) 789-0123,65.0,47,3191,2023-11-29,San Diego,CA,67.89,828,VIP
+369.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,79.0,28,2538,2024-09-13,Dallas,TX,90.64,539,VIP
+370.0,Henry,Martinez,henry@email.com,(555) 901-2345,29.0,12,3983,2024-02-10,San Jose,CA,331.92,755,VIP
+371.0,John,Smith,john@email.com,(555) 123-4567,22.0,45,4547,2024-08-28,New York,NY,101.04,555,VIP
+372.0,Mary,Johnson,mary@email.com,(555) 234-5678,54.0,34,164,2023-07-01,Los Angeles,CA,4.82,979,Occasional
+373.0,Bob,Williams,bob@gmail.com,(555) 345-6789,49.0,5,4277,2025-09-12,Chicago,IL,855.4,175,VIP
+376.0,David,Garcia,david@email.com,,26.0,46,4425,2024-12-18,Philadelphia,PA,96.2,443,VIP
+378.0,Frank,Davis,frank@email.com,(555) 789-0123,52.0,1,2198,2024-07-13,San Diego,CA,2198.0,601,VIP
+379.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,36.0,9,3156,2025-03-13,Dallas,TX,350.67,358,VIP
+380.0,Henry,Martinez,henry@email.com,(555) 901-2345,65.0,29,4242,2023-07-25,San Jose,CA,146.28,955,VIP
+381.0,John,Smith,john@email.com,(555) 123-4567,33.0,49,3695,2025-04-22,New York,NY,75.41,318,VIP
+382.0,Mary,Johnson,mary@email.com,(555) 234-5678,20.0,44,3452,2024-01-18,Los Angeles,CA,78.45,778,VIP
+383.0,Bob,Williams,bob@gmail.com,(555) 345-6789,37.0,4,914,2025-08-09,Chicago,IL,228.5,209,Regular
+386.0,David,Garcia,david@email.com,,73.0,17,513,2026-01-21,Philadelphia,PA,30.18,44,Regular
+388.0,Frank,Davis,frank@email.com,(555) 789-0123,41.0,46,3594,2023-09-28,San Diego,CA,78.13,890,VIP
+389.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,69.0,48,4841,2023-12-10,Dallas,TX,100.85,817,VIP
+391.0,John,Smith,john@email.com,(555) 123-4567,66.0,20,4802,2024-01-21,New York,NY,240.1,775,VIP
+392.0,Mary,Johnson,mary@email.com,(555) 234-5678,25.0,25,4566,2024-10-21,Los Angeles,CA,182.64,501,VIP
+393.0,Bob,Williams,bob@gmail.com,(555) 345-6789,53.0,24,3190,2023-07-17,Chicago,IL,132.92,963,VIP
+396.0,David,Garcia,david@email.com,,37.0,48,804,2026-02-09,Philadelphia,PA,16.75,25,Regular
+398.0,Frank,Davis,frank@email.com,(555) 789-0123,52.0,32,3577,2025-04-24,San Diego,CA,111.78,316,VIP
+399.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,65.0,33,2901,2023-10-28,Dallas,TX,87.91,860,VIP
+400.0,Henry,Martinez,henry@email.com,(555) 901-2345,79.0,40,1387,2023-05-13,San Jose,CA,34.67,1028,Regular
+401.0,John,Smith,john@email.com,(555) 123-4567,42.0,34,4688,2024-08-07,New York,NY,137.88,576,VIP
+402.0,Mary,Johnson,mary@email.com,(555) 234-5678,52.0,0,2761,2025-03-30,Los Angeles,CA,0.0,341,VIP
+403.0,Bob,Williams,bob@gmail.com,(555) 345-6789,42.0,20,2679,2025-01-26,Chicago,IL,133.95,404,VIP
+406.0,David,Garcia,david@email.com,,63.0,27,4831,2025-06-25,Philadelphia,PA,178.93,254,VIP
+408.0,Frank,Davis,frank@email.com,(555) 789-0123,19.0,4,3953,2023-10-27,San Diego,CA,988.25,861,VIP
+409.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,71.0,30,3186,2023-09-04,Dallas,TX,106.2,914,VIP
+410.0,Henry,Martinez,henry@email.com,(555) 901-2345,52.0,4,3280,2026-01-14,San Jose,CA,820.0,51,VIP
+411.0,John,Smith,john@email.com,(555) 123-4567,33.0,37,2573,2025-12-07,New York,NY,69.54,89,VIP
+412.0,Mary,Johnson,mary@email.com,(555) 234-5678,78.0,2,4616,2025-05-26,Los Angeles,CA,2308.0,284,VIP
+413.0,Bob,Williams,bob@gmail.com,(555) 345-6789,58.0,22,2599,2024-11-08,Chicago,IL,118.14,483,VIP
+416.0,David,Garcia,david@email.com,,21.0,9,1304,2025-04-30,Philadelphia,PA,144.89,310,Regular
+418.0,Frank,Davis,frank@email.com,(555) 789-0123,31.0,18,1301,2024-05-22,San Diego,CA,72.28,653,Regular
+419.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,38.0,16,2541,2025-05-17,Dallas,TX,158.81,293,VIP
+420.0,Henry,Martinez,henry@email.com,(555) 901-2345,65.0,20,2051,2024-06-29,San Jose,CA,102.55,615,VIP
+421.0,John,Smith,john@email.com,(555) 123-4567,37.0,13,441,2023-10-21,New York,NY,33.92,867,Occasional
+422.0,Mary,Johnson,mary@email.com,(555) 234-5678,73.0,8,2076,2023-10-03,Los Angeles,CA,259.5,885,VIP
+423.0,Bob,Williams,bob@gmail.com,(555) 345-6789,25.0,45,3180,2025-10-01,Chicago,IL,70.67,156,VIP
+426.0,David,Garcia,david@email.com,,34.0,12,804,2025-04-04,Philadelphia,PA,67.0,336,Regular
+428.0,Frank,Davis,frank@email.com,(555) 789-0123,65.0,0,2175,2023-09-09,San Diego,CA,0.0,909,VIP
+429.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,29.0,48,3924,2024-03-26,Dallas,TX,81.75,710,VIP
+430.0,Henry,Martinez,henry@email.com,(555) 901-2345,76.0,39,2089,2025-08-30,San Jose,CA,53.56,188,VIP
+431.0,John,Smith,john@email.com,(555) 123-4567,68.0,31,40,2025-04-12,New York,NY,1.29,328,Occasional
+432.0,Mary,Johnson,mary@email.com,(555) 234-5678,39.0,33,2081,2025-09-08,Los Angeles,CA,63.06,179,VIP
+433.0,Bob,Williams,bob@gmail.com,(555) 345-6789,72.0,27,4683,2024-06-01,Chicago,IL,173.44,643,VIP
+436.0,David,Garcia,david@email.com,,47.0,38,4052,2023-06-18,Philadelphia,PA,106.63,992,VIP
+438.0,Frank,Davis,frank@email.com,(555) 789-0123,55.0,33,645,2023-04-04,San Diego,CA,19.55,1067,Regular
+439.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,62.0,2,4826,2025-05-05,Dallas,TX,2413.0,305,VIP
+440.0,Henry,Martinez,henry@email.com,(555) 901-2345,68.0,49,4263,2023-12-07,San Jose,CA,87.0,820,VIP
+441.0,John,Smith,john@email.com,(555) 123-4567,71.0,11,609,2023-04-23,New York,NY,55.36,1048,Regular
+442.0,Mary,Johnson,mary@email.com,(555) 234-5678,25.0,0,454,2025-10-15,Los Angeles,CA,0.0,142,Occasional
+443.0,Bob,Williams,bob@gmail.com,(555) 345-6789,44.0,43,2953,2023-03-20,Chicago,IL,68.67,1082,VIP
+446.0,David,Garcia,david@email.com,,38.0,29,2969,2023-02-24,Philadelphia,PA,102.38,1106,VIP
+448.0,Frank,Davis,frank@email.com,(555) 789-0123,50.0,47,4797,2023-05-09,San Diego,CA,102.06,1032,VIP
+449.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,45.0,46,2681,2024-03-22,Dallas,TX,58.28,714,VIP
+450.0,Henry,Martinez,henry@email.com,(555) 901-2345,64.0,22,3629,2023-04-12,San Jose,CA,164.95,1059,VIP
+451.0,John,Smith,john@email.com,(555) 123-4567,50.0,14,4225,2024-10-09,New York,NY,301.79,513,VIP
+452.0,Mary,Johnson,mary@email.com,(555) 234-5678,22.0,36,3067,2025-05-11,Los Angeles,CA,85.19,299,VIP
+453.0,Bob,Williams,bob@gmail.com,(555) 345-6789,77.0,20,1386,2024-03-20,Chicago,IL,69.3,716,Regular
+456.0,David,Garcia,david@email.com,,36.0,10,4788,2025-07-09,Philadelphia,PA,478.8,240,VIP
+458.0,Frank,Davis,frank@email.com,(555) 789-0123,52.0,37,4889,2024-10-04,San Diego,CA,132.14,518,VIP
+459.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,66.0,33,4124,2024-12-11,Dallas,TX,124.97,450,VIP
+460.0,Henry,Martinez,henry@email.com,(555) 901-2345,34.0,37,148,2023-08-07,San Jose,CA,4.0,942,Occasional
+461.0,John,Smith,john@email.com,(555) 123-4567,61.0,49,3850,2025-09-13,New York,NY,78.57,174,VIP
+462.0,Mary,Johnson,mary@email.com,(555) 234-5678,45.0,33,2058,2025-01-23,Los Angeles,CA,62.36,407,VIP
+463.0,Bob,Williams,bob@gmail.com,(555) 345-6789,47.0,17,1136,2025-04-09,Chicago,IL,66.82,331,Regular
+466.0,David,Garcia,david@email.com,,70.0,26,1250,2025-02-01,Philadelphia,PA,48.08,398,Regular
+468.0,Frank,Davis,frank@email.com,(555) 789-0123,52.0,37,4193,2025-10-05,San Diego,CA,113.32,152,VIP
+469.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,77.0,32,4150,2023-05-03,Dallas,TX,129.69,1038,VIP
+470.0,Henry,Martinez,henry@email.com,(555) 901-2345,58.0,23,2711,2024-04-13,San Jose,CA,117.87,692,VIP
+471.0,John,Smith,john@email.com,(555) 123-4567,54.0,14,4853,2024-09-12,New York,NY,346.64,540,VIP
+472.0,Mary,Johnson,mary@email.com,(555) 234-5678,41.0,29,4501,2025-11-17,Los Angeles,CA,155.21,109,VIP
+473.0,Bob,Williams,bob@gmail.com,(555) 345-6789,46.0,41,1785,2025-04-06,Chicago,IL,43.54,334,Regular
+476.0,David,Garcia,david@email.com,,70.0,28,3920,2025-04-14,Philadelphia,PA,140.0,326,VIP
+478.0,Frank,Davis,frank@email.com,(555) 789-0123,52.0,9,481,2024-07-03,San Diego,CA,53.44,611,Occasional
+479.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,77.0,16,153,2023-05-31,Dallas,TX,9.56,1010,Occasional
+480.0,Henry,Martinez,henry@email.com,(555) 901-2345,50.0,9,1524,2025-03-03,San Jose,CA,169.33,368,Regular
+481.0,John,Smith,john@email.com,(555) 123-4567,69.0,16,2120,2023-11-20,New York,NY,132.5,837,VIP
+482.0,Mary,Johnson,mary@email.com,(555) 234-5678,78.0,19,2343,2023-12-03,Los Angeles,CA,123.32,824,VIP
+483.0,Bob,Williams,bob@gmail.com,(555) 345-6789,38.0,23,1240,2023-04-23,Chicago,IL,53.91,1048,Regular
+486.0,David,Garcia,david@email.com,,50.0,5,1639,2025-02-15,Philadelphia,PA,327.8,384,Regular
+488.0,Frank,Davis,frank@email.com,(555) 789-0123,35.0,12,4226,2024-03-09,San Diego,CA,352.17,727,VIP
+489.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,42.0,42,3569,2024-07-16,Dallas,TX,84.98,598,VIP
+490.0,Henry,Martinez,henry@email.com,(555) 901-2345,59.0,42,1252,2024-03-25,San Jose,CA,29.81,711,Regular
+491.0,John,Smith,john@email.com,(555) 123-4567,48.0,47,4203,2023-12-23,New York,NY,89.43,804,VIP
+492.0,Mary,Johnson,mary@email.com,(555) 234-5678,71.0,10,171,2024-07-06,Los Angeles,CA,17.1,608,Occasional
+493.0,Bob,Williams,bob@gmail.com,(555) 345-6789,75.0,46,1458,2024-07-02,Chicago,IL,31.7,612,Regular
+496.0,David,Garcia,david@email.com,,63.0,30,2322,2024-10-05,Philadelphia,PA,77.4,517,VIP
+498.0,Frank,Davis,frank@email.com,(555) 789-0123,67.0,15,3115,2025-01-10,San Diego,CA,207.67,420,VIP
+499.0,Grace,Rodriguez,grace@email.com,(555) 890-1234,49.0,7,4090,2023-05-17,Dallas,TX,584.29,1024,VIP
+500.0,Henry,Martinez,henry@email.com,(555) 901-2345,64.0,3,3004,2023-10-14,San Jose,CA,1001.33,874,VIP

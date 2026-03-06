@@ -1,0 +1,5 @@
+customer_name,order_count,total_spent,tier
+  Alice Johnson,20,22085,VIP
+Bob Smith  ,26,29211,VIP
+Carol White  ,24,33656,VIP
+David Brown,30,36223,VIP

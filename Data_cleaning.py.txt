@@ -1,0 +1,237 @@
+import numpy as np
+import pandas as pd
+df=pd.read_csv('customer_data_dirty.csv')
+df.head()
+df.isnull().sum()
+df.describe()
+df['customer_id'].duplicated().sum()
+df.describe()
+
+df['first_name'].duplicated().sum()
+df['age'].min()
+print(f"Negative ages:{(df['age']<0).sum()}")
+print(f"Age>120:{(df['age']>120).sum()}")
+df['email']
+invalid_email=df[~df['email'].str.contains('@',na=False)]
+invalid_email
+print(f"\nInvalid emails (no @ symbols):{len(invalid_email)}")
+print("==step1:Removing Duplicates==")
+print(f"Before Deleting {len(df)}rows")
+
+df_clean=df.drop_duplicates()
+print(f"After deleting duplicates{len(df_clean)} rows")
+df_clean=df_clean.drop_duplicates(subset='customer_id',keep='first')
+print(f"After removing the duplicates ids {len(df_clean)}")
+print(f"Total rows removed:{len(df)-len(df_clean)}")
+df_clean.isnull().sum()
+print("Step 2:Clean the Text")
+def clean_text(text):
+    if pd.isna(text) or text=='':
+        return None
+    return str(text).strip().title()
+df_clean['first_name']=df_clean['first_name'].apply(clean_text)
+f_clean['last_name']=df_clean['last_name'].apply(clean_text)
+df_clean['city']=df_clean['city'].apply(clean_text)
+df_clean['email']=df_clean['email'].str.strip().str.lower()
+df_clean['state']=df_clean['state'].str.strip().str.upper()
+print("Text Columns are Cleaned")
+print(df_clean[['first_name','last_name','email','city','state']].head(10))
+print("==Step 3:Standardize the Number")
+def clean_phone(phone):
+    if pd.isna(phone):
+        return None
+    digits=''.join(filter(str.isdigit,str(phone)))
+    if len(digits)!=10:
+        return None
+    return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
+df_clean['phone']=df_clean['phone'].apply(clean_phone)
+print("Sample data after cleaning")
+print(df_clean['phone'].dropna().head(10))
+print(f"\n Valid Phone numbers:{df_clean['phone'].notna().sum()}")
+print(f"Invalid/missing phone numbers:{df_clean['phone'].isna().sum()}")
+print("==Step 4:Validate Mails==")
+def Validate_email(email):
+    if pd.isna(email) or email=='':
+        return None
+    if '@' not in email or '.'not in email.split('@')[-1]:
+        return None
+    return email
+df_clean['email']=df_clean['email'].apply(Validate_email)
+print(f"Valid Mails:{df_clean['email'].notna().sum()}")
+print(f"Invalid/missing mails:{df_clean['email'].isna().sum()}")
+print("==Step 5: Fix Age Outliers")
+print("Before cleaning")
+print(f"Min Age:{df_clean['age'].min()}")
+print(f"Max Age:{df_clean['age'].max()}")
+print(f"Age is negative:{(df_clean['age']<0).sum()}")
+print(f"Age >120:{(df_clean['age']>120).sum()}")
+
+df_clean.loc[df_clean['age']<0,'age']=None
+df_clean.loc[df_clean['age']>120,'age']=None
+
+print("\nAfter Cleaning")
+print(f"Min Age {df_clean['age'].min()}")
+print(f"Max Age {df_clean['age'].max()}")
+print(f"Invalid/missing age's:{df_clean['age'].isna().sum()}")
+print("==Step 6:Clean Dates")
+def clean_date(date_str):
+    try:
+        date=pd.to_datetime(date_str)
+        if date>pd.Timestamp.now():
+            return None
+        if date<pd.Timestamp('1990-01-01'):
+            return 
+        return date
+    except:
+        return None
+df_clean['join_date']=df_clean['join_date'].apply(clean_date)
+print(f"Valid dates :{df_clean['join_date'].notna().sum()}")
+print(f"Invalid dates:{df_clean['join_date'].isna().sum()}")
+print("\nDate Range")
+print(f"Earliest date :{df_clean['join_date'].min()}")
+print(f"Latest date:{df_clean['join_date'].max()}")
+import warnings
+warnings.filterwarnings('ignore')
+print("==Step 7:Handling Missing Values")
+print(df_clean.isnull().sum())
+
+df_clean=df_clean.dropna(subset=['customer_id','first_name','last_name','email'])
+
+median_age=df_clean['age'].median()
+df_clean['age'].fillna(median_age,inplace=True)
+
+df_clean['total_purchases'].fillna(0,inplace=True)
+df_clean['total_spent'].fillna(0,inplace=True)
+print("==step 8:Create Derived Features")
+df_clean['average_order_value']=np.where(df_clean['total_purchases']>0,df_clean['total_spent']/df_clean['total_purchases'],0).round(2)
+
+df_clean['tenure_days']=(pd.Timestamp.now()-df_clean['join_date']).dt.days
+
+conditions=[
+    df_clean['total_spent']>=2000,
+    df_clean['total_spent']>=500,
+    df_clean['total_spent']<500
+    
+]
+choice=['VIP','Regular','Occasional']
+df_clean['Customer_tier']=np.select(conditions,choice,default='Unknown')
+
+print("After new Features")
+print(df_clean[['total_spent', 'total_purchases', 'average_order_value', 'Customer_tier']].head(10))
+print("=== FINAL DATA VALIDATION ===")
+
+print(f"Final shape: {df_clean.shape}")
+print(f"\nData types:")
+print(df_clean.dtypes)
+
+print(f"\nMissing values:")
+print(df_clean.isnull().sum())
+
+print(f"\nAge statistics:")
+print(df_clean['age'].describe())
+
+print(f"\nCustomer tiers:")
+print(df_clean['Customer_tier'].value_counts())
+
+print(f"\nSample of cleaned data:")
+display(df_clean.head(10))
+print(df_clean['Customer_tier'].value_counts())
+print("=== BEFORE vs AFTER COMPARISON ===")
+
+# Load original dirty data again for comparison
+df_original = pd.read_csv('customer_data_dirty.csv')
+
+comparison = pd.DataFrame({
+    'Metric': [
+        'Total Rows',
+        'Total Columns',
+        'Duplicate Rows',
+        'Missing customer_id',
+        'Missing email',
+        'Invalid emails',
+        'Invalid phone numbers',
+        'Invalid ages',
+        'Future join dates'
+    ],
+    'Before Cleaning': [
+        len(df_original),
+        len(df_original.columns),
+        df_original.duplicated().sum(),
+        df_original['customer_id'].isna().sum(),
+        df_original['email'].isna().sum(),
+        (~df_original['email'].str.contains('@', na=False)).sum(),
+        'Not calculated',
+        ((df_original['age'] < 0) | (df_original['age'] > 120)).sum(),
+        'Not calculated'
+    ],
+    'After Cleaning': [
+        len(df_clean),
+        len(df_clean.columns),
+        0,  # All duplicates removed
+        0,  # All rows with missing customer_id removed
+        0,  # All rows with missing email removed
+        0,  # All invalid emails removed
+        df_clean['phone'].isna().sum(),
+        0,  # All invalid ages fixed
+        0   # All future dates removed
+    ]
+})
+
+display(comparison)
+print("=== EXPORTING CLEAN DATA ===")
+
+# Export to CSV
+df_clean.to_csv('customer_data_clean.csv', index=False)
+print("Clean data exported: customer_data_clean.csv")
+
+summary=df_clean.groupby('Customer_tier').agg({
+    'customer_id':'count',
+    'total_spent':'sum',
+    'average_order_value':'mean'
+}).round(2)
+summary.columns=['Customer_Count', 'Total_Revenue', 'Avg_Order_Value']
+summary.to_csv('customer_summary.csv')
+print("Summary report exported: customer_summary.csv")
+
+print(f"\n FINAL STATISTICS:")
+print(f"Total clean records: {len(df_clean)}")
+print(f"Records removed: {len(df_original) - len(df_clean)}")
+print(f"Removal rate: {((len(df_original) - len(df_clean)) / len(df_original) * 100):.1f}%")
+
+# NEW CELL: Visualize Cleaning Impact
+import matplotlib.pyplot as plt
+
+fig, axes = plt.subplots(2, 2, figsize=(12, 8))
+
+# Chart 1: Before vs After - Row Count
+axes[0, 0].bar(['Before Cleaning', 'After Cleaning'], 
+               [len(df_original), len(df_clean)], 
+               color=['red', 'green'])
+axes[0, 0].set_title('Records: Before vs After')
+axes[0, 0].set_ylabel('Number of Records')
+
+# Chart 2: Missing Values Comparison
+missing_before = df_original.isnull().sum().sum()
+missing_after = df_clean.isnull().sum().sum()
+axes[0, 1].bar(['Before Cleaning', 'After Cleaning'], 
+               [missing_before, missing_after], 
+               color=['red', 'green'])
+axes[0, 1].set_title('Total Missing Values')
+axes[0, 1].set_ylabel('Count')
+
+# Chart 3: Customer Tier Distribution
+df_clean['Customer_tier'].value_counts().plot(kind='pie', ax=axes[1, 0], autopct='%1.1f%%')
+axes[1, 0].set_title('Customer Segmentation')
+axes[1, 0].set_ylabel('')
+
+# Chart 4: Age Distribution (after cleaning)
+axes[1, 1].hist(df_clean['age'].dropna(), bins=20, color='skyblue', edgecolor='black')
+axes[1, 1].set_title('Age Distribution (Cleaned)')
+axes[1, 1].set_xlabel('Age')
+axes[1, 1].set_ylabel('Frequency')
+
+plt.tight_layout()
+plt.savefig('cleaning_summary.png', dpi=300, bbox_inches='tight')
+plt.show()
+
+print("Summary visualizations created and saved!")
