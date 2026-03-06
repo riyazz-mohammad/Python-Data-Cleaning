@@ -399,20 +399,7 @@ jupyter notebook
 
 ---
 
-## 📞 Contact
 
-**[Your Name]**  
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)  
-💻 GitHub: [@yourusername](https://github.com/yourusername)
-
-### Other Projects
-
-- 📊 [Executive Sales Dashboard (Excel)](https://github.com/yourusername/excel-dashboard) - Interactive dashboard with KPIs
-- 💾 [SQL Customer Analysis](https://github.com/yourusername/sql-analysis) - 10 business queries with insights
-
----
 
 ## 🙏 Acknowledgments
 
